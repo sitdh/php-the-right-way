@@ -1,37 +1,37 @@
 # PHP: The Right Way
 
-## Overview
+## ภาพรวม
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+นี่คือหน้าเพจ GitHub ของแหล่งเก็บข้อมูลโครงการ _PHP: The Right Way_
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* เว็บนี้เป็นโปรเจค Jekyll
+* แต่ละส่วนและส่วนย่อยเป็นไฟล์ Markdown อยู่ใน `_posts/`
+* ส่วนย่อยจะมี `isChild: true` อยู่ภายใน
+* ส่วนนำทางและโครงสร้างเพจนั้นจะถูกสร้างขึ้นมาอัตโนมัติ
 
-## Spread the Word!
+## กระจายออกไป
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: The Right Way_ มีรูปภาพหน้าเว็บที่คุณสามารถนำไปใช้ในเว็บได้ แสดงว่าคุณสนับสนุนเรา 
+และบอกกับนักพัฒนาหน้าใหม่ว่าจะหาข้อมูลที่ดีได้ที่ไหน
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[ดูรูปได้ที่](http://www.phptherightway.com/banners.html)
 
-## How to Contribute
+## แล้วจะมีส่วนร่วมได้อย่างไร
 
-You should read the `CONTRIBUTING.md` file for precise instructions and tips. But, if you prefer a TL;DR:
+คุณควรจะต้องอ่านไฟล์ `CONTRIBUTING.md` สำหรับขั้นตอนและคำแนะนำต่างๆ ในกรณีที่ต้องการอ่านข้อมูลมากๆ
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. ฟอร์คออกไปและแก้ไข
+2. จะทำหรือไม่ก็ได้ ให้ติดตั้ง [Ruby](https://rvm.io/rvm/install/) พร้อมกับ [Jekyll](https://github.com/mojombo/jekyll/) เพื่อลองดูเว็บเพจในเครื่องก่อน 
+3. ส่ง pull request เพื่อรอพิจารณา 
 
-### Contributor Style Guide
+### คำแนะนำของรูปแบบการมีส่วนร่วม
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
-3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+1. ใช้การสะกดด้วยภาษาอังกฤษแบบอเมริกา (*แหล่งเก็บข้อมูลหลักภาษาอังกฤษเท่านั้น*)
+2. ใช้สี่ (4) วรรค เพื่อย่อหน้าข้อความ อย่าใช้แท็บ
+3. ตัดข้อความที่ 120 ตัวอักษา
+4. ตัวอย่างโค้ดให้ใช้ PSR-1 หรือสูงกว่า
 
-## Where
+## ที่ไหน
 
 <http://www.phptherightway.com>
 
@@ -58,34 +58,35 @@ You should read the `CONTRIBUTING.md` file for precise instructions and tips. Bu
 * [简体中文](http://laravel-china.github.io/php-the-right-way/)
 * [繁體中文](http://laravel-taiwan.github.io/php-the-right-way)
 
-### Translations
+### การแปลภาษา
 
-If you are interested in translating _PHP: The Right Way_, fork this repo on GitHub and publish your localized fork to your own GitHub Pages account. We'll link to your translation from the primary document.
+หากสนใจที่จะช่วยแปล _PHP: The Right Way_ ให้ฟอร์คแหล่งเก็บข้อมูลนี้ออกไปบน GitHub และเปิดภาษาที่คุณแปลไว้บนหน้าเพจ GitHub ของคุณ
+เราจะทำลิงก์ของคุณมายังเอกสารหลักเอง
 
-To avoid fragmentation and reader confusion, please choose one of these options:
+เพื่อหลีกเลี่ยงการแปลกแยกและสร้างความสับสนให้กับผู้อ่าน กรุณาเลือกอย่างใดอย่างหนึ่ง
+1. เราจะลิงก์หน้าเพจ GitHub ของคุณด้วย `[username].github.io/php-the-right-way`
+2. เราจะลิงก์หน้าเพจ GitHub ที่ฟอร์คไปด้วยซับโดเมน (อย่างเช่น "ru.phptherightway.com")
 
-1. We link to your GitHub Pages fork with `[username].github.io/php-the-right-way`
-2. We link to your GitHub Pages fork with a subdomain (e.g. "ru.phptherightway.com")
+หากเลือกซับโดเมน ให้เพิ่มซับโดเมนไว้ในไฟล์ `CNAME` และบอกเราสำหรับการเตรียม DNS ให้คุณ หากไม่ใช้ซับโดเมน ให้เอาไฟล์นี้ออกไปจากที่ฟอร์คไป
+ไม่เช่นนั้นจะไม่มีการดำเนินการใดๆ กับไฟล์ที่ส่งกลับขึ้นมา
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+เพิ่มข้อมูลเกี่ยวกับการแปลภาษาของคุณที่[หน้าเพจวิกิ](https://github.com/codeguy/php-the-right-way/wiki/Translations)
 
-Add information about your translation in the [wiki page](https://github.com/codeguy/php-the-right-way/wiki/Translations).
+เมื่อคุณแปลเสร็จ ให้เปิดประเด็นใหม่ในหน้าติดตามประเด็นเพื่อให้เรารับทราบ
 
-When your translation is ready, open an issue on the Issue Tracker to let us know.
+## ทำไม
 
-## Why
+มีการถกเถียงเรื่องข้อมูลที่น่าเชื่อถือนั้นไม่เพียงพอสำหรับนักพัฒนา PHP หน้าใหม่ในกลุ่มกันมาได้ระยะหนึ่งแล้ว โดยแหล่งเก็บข้อมูลนี้ตั้งเป้าหมายว่าจะแก้ไขปัญหานั้น
 
-There's been a lot of discussion lately about how the PHP community lacks sufficient, credible information for programmers new to PHP. This repository aims to solve this problem.
+## ใคร
 
-## Who
+ผมชื่อ [Josh Lockhard](http://twitter.com/codeguy) ผมแต่งหนังสือ [Slim Framework](http://www.slimframework.com/) และทำงานให้กับ [New Media Campaigns](http://www.newmediacampaigns.com/)
 
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
-
-### Collaborators
+### เพื่อนร่วมงาน
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
 
-## License
+## ลิขสิทธิ์
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+[ครีเอทีฟ คอมมอนส์ อ้างถึง-ไม่ใช่เพื่อการค้า-แชร์เหมือนกัน 3.0 ไม่ปรับแก้ลิขสิทธิ์](http://creativecommons.org/licenses/by-nc-sa/3.0/)
