@@ -2,5 +2,5 @@
 anchor: getting_started
 ---
 
-# Getting Started {#getting_started_title}
+# เริ่มต้นกันเลย {#getting_started_title}
 
